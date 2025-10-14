@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-indigo-600 px-4 py-20 text-white text-center">
+      <section className="bg-[#0A1832] px-4 py-20 text-white text-center">
         <h1 className="mb-4 font-bold text-4xl md:text-5xl">Find Your Dream Car</h1>
         <p className="mb-6 text-lg md:text-xl">
           Browse thousands of listings and find the perfect ride.
@@ -42,7 +42,7 @@ export default function Home() {
           <input
             type="text"
             placeholder="Search cars by make, model or keyword"
-            className="flex-1 px-4 py-3 rounded-l-md focus:outline-none text-gray-900"
+            className="flex-1 px-4 py-3 rounded-l-md outline text-white"
           />
           <button className="bg-white hover:bg-gray-100 px-6 py-3 rounded-r-md font-semibold text-indigo-600">
             Search
@@ -106,7 +106,7 @@ export default function Home() {
       </section>
 
       {/* Call-to-Action */}
-      <section className="bg-indigo-600 px-4 py-16 text-white text-center">
+      <section className="bg-indigo-800 px-4 py-16 text-white text-center">
         <h2 className="mb-4 font-bold text-3xl">Ready to sell your car?</h2>
         <p className="mb-6">Join thousands of sellers and reach buyers instantly.</p>
         <Link
